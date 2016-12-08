@@ -5,26 +5,33 @@ html {
   box-sizing: inherit; }
 
 body {
-  background-color: #F5F5F5; }
+  background-color: #F5F5F5;
+  margin: 0; }
 
-header {
+.header {
   width: 100vw;
-  background-color: #005689; }
-  header .header-topbar, header .header-bottombar {
+  background-color: #005689;
+  margin: auto; }
+  .header .header-topbar, .header .header-bottombar {
     width: 1300px;
     margin: auto; }
     @media (max-width: 1300px) {
-      header .header-topbar, header .header-bottombar {
+      .header .header-topbar, .header .header-bottombar {
         width: 1140px; } }
     @media (max-width: 1140px) {
-      header .header-topbar, header .header-bottombar {
+      .header .header-topbar, .header .header-bottombar {
         width: 980px; } }
     @media (max-width: 980px) {
-      header .header-topbar, header .header-bottombar {
+      .header .header-topbar, .header .header-bottombar {
         width: 740px; } }
     @media (max-width: 740px) {
-      header .header-topbar, header .header-bottombar {
+      .header .header-topbar, .header .header-bottombar {
         width: 100vw; } }
+
+#logo {
+  position: relative;
+  top: 20px;
+  left: 740px; }
 
 main {
   width: 1300px;

@@ -1,0 +1,27 @@
+.header {
+  width: 100vw;
+  background-color: $color-head-blue;
+  margin: auto;
+  .header-topbar, .header-bottombar {
+    width: 1300px;
+    margin: auto;
+    @media  #{$brk-large} {
+      width: 1140px;
+    }
+    @media  #{$brk-medium} {
+      width: 980px;
+    }
+    @media  #{$brk-tablet} {
+      width: 740px;
+    }
+    @media  #{$brk-phone} {
+      width: 100vw;
+    }
+  }
+}
+
+#logo {
+  position:relative;
+  top:20px;
+  left:740px;
+}

@@ -23,6 +23,6 @@
 $stories-top-height       : 333px;
 $stories-bottom-height    : 309px;
 
-@mixin top-height() {
-  // if .content { width == 980px;} 
+@mixin top-height($media) {
+  @if $media == 
 }
