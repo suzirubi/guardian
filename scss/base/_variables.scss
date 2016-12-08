@@ -1,67 +1,51 @@
 
 // Colors
 
+$color-white                  : #FFF;
+$color-grey                   : #333;
+$color-black                  : #000;
+
 $color-blue                   : #005689;
-$color-blue-dark              : #00456E;
-$color-blue-light             : #AADCE6;
+$color-lightBlue              : #A2C0D8;
+$color-wildSand               : #f6f6f6;
+$color-whiteSmoke             : #f4f4f4;
+$color-discoPurple            : #005689;
 
+$color-tile-background        : $color-wildSand;
+$color-container-background   : $color-whiteSmoke;
+$color-body-background        : $color-white;
 
-$color-tile-background        : #F6F6F6;
-$color-container-background   : #F5F5F5;
-$color-body-background        : #FFF;
 $color-head-blue              : $color-blue;
-$color-head-grey              : #333333;
-$color-head-light-grey        : #5C5C5C;
 
-$color-text-grey              : #767676;
-$color-text-dark-grey         : $color-head-grey;
-$color-text-white             : $color-body-background;
-$color-text-highlight         : #951C55;
+$color-text-grey              : $color-grey;
+$color-text-highlight         : $color-discoPurple;
 
-
-
-// Colors
-// $color-white                  : #fff;
-// $color-black                  : #000;
-// $color-grey
-//
-//
-// $color-blue                   : #005689;
-// $color-blue-light             : #AADCE6;
-// $color-disco                  : #951C55;
-//
-// $color-blue-dark              : #00456E;
-//
-// $color-primary                : $color-blue;
-// $color-secondary              : $color-blue-light;
-// $color-accent                 : $color-disco;
-//
-// $color-tile-background        : #F6F6F6;
-// $color-container-background   : #F5F5F5;
-// $color-body-background        : #FFF;
-// $color-head-primary           : $color-blue;
-// $color-head-grey              : #333333;
-// $color-head-light-grey        : #5C5C5C;
-//
-// $color-text-grey              : #767676;
-// $color-text-dark-grey         : $color-head-grey;
-// $color-text-white             : $color-body-background;
-// $color-text-highlight         : $color-accent;
-
-// $stack-serif                  :;
-// $stack-merriweather           :;
-// $stack-sans-serif             :;
-// $stack-open                   :;
 
 //font stacks
 
-$stack-serif: Georgia, serif;
-$stack-GuardianEgyptianWeb : "Guardian Egyptian Web", $stack-serif;
+$stack-serif: $georgia;
+$stack-GuardianEgyptianWeb : 'GuardianEgyptianWeb', $stack-serif;
 
-$font-url--google-open                   : "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i";
+$font-url--google                   : "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i";
 
 $font-family--primary                    : $stack-GuardianEgyptianWeb;
-$font-family--secondary                  : "Open Sans", sans-serif;
+$font-family--secondary                  : 'Open Sans', $helvetica;
+
+//font-weight for open
+
+$font-weight--light                       : 300;
+$font-weight--regular                     : 400;
+$font-weight--semibold                    : 600;
+$font-weight--bold                        : 700;
+$font-weight--xbold                       : 800;
+
+
+//font-size
+
+$base__font-size                        : 16px;
+$base__line                             : 24px;
+
+
 
 // $font-icon                               :
 

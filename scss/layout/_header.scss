@@ -1,7 +1,9 @@
-.header {
+
+nav {
   width: 100vw;
-  background-color: $color-head-blue;
+  background-color: $color-blue;
   margin: auto;
+  color: $color-white;
   .header-topbar, .header-bottombar {
     width: 1300px;
     margin: auto;
@@ -18,6 +20,33 @@
       width: 100vw;
     }
   }
+}
+ul {
+  list-style: none;
+  padding: .5em;
+  li {
+    display: inline;
+  }
+}
+
+.header-bottombar {
+  background-color: shade($color-blue,20%);
+}
+#signIn {
+  position: relative;
+  display: inline;
+  top: .2em;
+}
+
+#google {
+  position: relative;
+  display: inline;
+  top: .85em;
+}
+#search {
+  position: relative;
+  display: inline;
+  top: .2em;
 }
 
 #logo {
