@@ -1,23 +1,15 @@
-// Colors
-$color-white                  : #fff;
-$color-black                  : #000;
-$color-grey
 
+// Colors
 
 $color-blue                   : #005689;
-$color-blue-light             : #AADCE6;
-$color-disco                  : #951C55;
-
 $color-blue-dark              : #00456E;
+$color-blue-light             : #AADCE6;
 
-$color-primary                : $color-blue;
-$color-secondary              : $color-blue-light;
-$color-accent                 : $
 
 $color-tile-background        : #F6F6F6;
 $color-container-background   : #F5F5F5;
 $color-body-background        : #FFF;
-$color-head-primary           : $color-blue;
+$color-head-blue              : $color-blue;
 $color-head-grey              : #333333;
 $color-head-light-grey        : #5C5C5C;
 
@@ -25,6 +17,36 @@ $color-text-grey              : #767676;
 $color-text-dark-grey         : $color-head-grey;
 $color-text-white             : $color-body-background;
 $color-text-highlight         : #951C55;
+
+
+
+// Colors
+// $color-white                  : #fff;
+// $color-black                  : #000;
+// $color-grey
+//
+//
+// $color-blue                   : #005689;
+// $color-blue-light             : #AADCE6;
+// $color-disco                  : #951C55;
+//
+// $color-blue-dark              : #00456E;
+//
+// $color-primary                : $color-blue;
+// $color-secondary              : $color-blue-light;
+// $color-accent                 : $color-disco;
+//
+// $color-tile-background        : #F6F6F6;
+// $color-container-background   : #F5F5F5;
+// $color-body-background        : #FFF;
+// $color-head-primary           : $color-blue;
+// $color-head-grey              : #333333;
+// $color-head-light-grey        : #5C5C5C;
+//
+// $color-text-grey              : #767676;
+// $color-text-dark-grey         : $color-head-grey;
+// $color-text-white             : $color-body-background;
+// $color-text-highlight         : $color-accent;
 
 // $stack-serif                  :;
 // $stack-merriweather           :;
@@ -41,6 +63,7 @@ $font-url--google-open                   : "https://fonts.googleapis.com/css?fam
 $font-family--primary                    : $stack-GuardianEgyptianWeb;
 $font-family--secondary                  : "Open Sans", sans-serif;
 
+// $font-icon                               :
 
 // Asset paths
 
