@@ -8,7 +8,8 @@ body {
   background-color: #F5F5F5; }
 
 header {
-  width: 100vw; }
+  width: 100vw;
+  background-color: #005689; }
   header .header-topbar, header .header-bottombar {
     width: 1300px;
     margin: auto; }
@@ -40,5 +41,56 @@ main {
   @media (max-width: 740px) {
     main {
       width: 100vw; } }
+  main .headlines {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%; }
+    main .headlines:last-child {
+      margin-right: 0; }
+  main .stories {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    main .stories:last-child {
+      margin-right: 0; }
+    main .stories .stories-top {
+      height: 333px;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      main .stories .stories-top:last-child {
+        margin-right: 0; }
+      main .stories .stories-top article:nth-child(1) {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 74.41059%; }
+        main .stories .stories-top article:nth-child(1):last-child {
+          margin-right: 0; }
+      main .stories .stories-top article:nth-child(2) {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 23.23176%; }
+        main .stories .stories-top article:nth-child(2):last-child {
+          margin-right: 0; }
+    main .stories .stories-bottom {
+      height: 309px;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      main .stories .stories-bottom:last-child {
+        margin-right: 0; }
+      main .stories .stories-bottom article {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 23.23176%; }
+        main .stories .stories-bottom article:last-child {
+          margin-right: 0; }
 
 /*# sourceMappingURL=app.css.map */

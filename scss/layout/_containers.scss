@@ -1,5 +1,6 @@
 header {
   width: 100vw;
+  background-color: $color-head-blue;
   .header-topbar, .header-bottombar {
     width: 1300px;
     margin: auto;
@@ -32,5 +33,28 @@ main {
   }
   @media  #{$brk-phone} {
     width: 100vw;
+  }
+  .headlines {
+    @include span-columns(2 of 12);
+  }
+  .stories {
+    @include span-columns(9 of 12);
+    .stories-top{
+      height: $stories-top-height;
+      @include span-columns(12 of 12);
+      article:nth-child(1) {
+        @include span-columns(9 of 12);
+      }
+      article:nth-child(2) {
+        @include span-columns(3 of 12);
+      }
+    }
+    .stories-bottom {
+      height: $stories-bottom-height;
+      @include span-columns(12 of 12);
+      article {
+        @include span-columns(3 of 12);
+      }
+    }
   }
 }

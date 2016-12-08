@@ -17,6 +17,13 @@ $color-text-dark-grey         : $color-head-grey;
 $color-text-white             : $color-body-background;
 $color-text-highlight         : #951C55;
 
+// $stack-serif                  :;
+// $stack-merriweather           :;
+// $stack-sans-serif             :;
+// $stack-open                   :;
+
+
+
 
 //Media Query breakpoints
 
@@ -24,3 +31,9 @@ $brk-large : '(max-width: 1300px)';
 $brk-medium: '(max-width: 1140px)';
 $brk-tablet : '(max-width: 980px)';
 $brk-phone: '(max-width: 740px)';
+
+
+// Heights
+
+$stories-top-height       : 333px;
+$stories-bottom-height    : 309px;
