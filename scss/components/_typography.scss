@@ -33,21 +33,7 @@ font-stretch: normal;
 
 }
 
-nav {
-  a {
-    font-family: 'GuardianEgyptianWeb';
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: 0.04em;
-    color: $color-white;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
+
 .header-topbar {
-  @include text(0.95em, 1.4)
+  @include text(0.88em, 1.4);
 }

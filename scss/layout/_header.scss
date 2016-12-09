@@ -4,21 +4,36 @@ nav {
   height: 163px;
   background-color: $color-blue;
   color: $color-white;
+  ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    li {
+      display: inline;
+      margin-right:0.333em;
+      margin-left:0.333em;
+      a {
+        font-family: 'GuardianEgyptianWeb';
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: 0.04em;
+        color: $color-white;
+        text-decoration: none;
+        -webkit-font-smoothing: antialiased;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
+
 // @function em($target, $context: $base__font-size) {
 //   @return ($target / $context) * 1em;
 // }
 
-ul {
-  list-style: none;
-  margin:0;
-  padding: 0;
-  li {
-    display: inline;
-    margin-right:0.333em;
-    margin-left:0.333em;
-  }
-}
+
 .header-full {
   position: relative;
   width: 100vw;
@@ -29,6 +44,9 @@ ul {
 .header-logo {
   width: 1300px;
   margin: auto;
+  a:hover {
+    text-decoration: underline;
+  }
   @media  #{$brk-large} {
     width: 1140px;
   }
@@ -48,6 +66,7 @@ ul {
   .topBarIcon {
     position: relative;
     top: 0;
+    margin-right: .15em;
     padding: .55em;
     border-radius: 1.5em;
     border: 2px solid tint($color-blue, 8%);
@@ -60,6 +79,7 @@ ul {
     position: relative;
     top: .85em;
     border: 0px;
+    margin-right: .15em;
   }
   .jobs {
     position: absolute;
@@ -72,6 +92,7 @@ ul {
     right:.28em;
   }
 }
+
 .header-logo {
   position: relative;
   height: 63%;
