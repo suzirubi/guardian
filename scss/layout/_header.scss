@@ -47,11 +47,19 @@ ul {
   height: 15%;
   .topBarIcon {
     position: relative;
-    top: .2em;
+    top: 0;
+    padding: .55em;
+    border-radius: 1.5em;
+    border: 2px solid tint($color-blue, 8%);
+    svg {
+      position: relative;
+      top: .25em;
+    }
   }
   .circleLogo {
     position: relative;
     top: .85em;
+    border: 0px;
   }
   .jobs {
     position: absolute;
@@ -89,9 +97,9 @@ ul {
       right: -.3em;
       width: 200px;
       height: 100%;
-      padding-right: .3em;
+      padding: .5em .3em 0em 0em;
       text-align: right;
-      background-color: shade($color-grey,80%);
+      background-color: shade($color-grey,10%);
       z-index: 100;
     }
   }

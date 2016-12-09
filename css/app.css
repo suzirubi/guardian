@@ -107,10 +107,17 @@ ul {
   height: 15%; }
   .header-topbar .topBarIcon {
     position: relative;
-    top: .2em; }
+    top: 0;
+    padding: .55em;
+    border-radius: 1.5em;
+    border: 2px solid #146492; }
+    .header-topbar .topBarIcon svg {
+      position: relative;
+      top: .25em; }
   .header-topbar .circleLogo {
     position: relative;
-    top: .85em; }
+    top: .85em;
+    border: 0px; }
   .header-topbar .jobs {
     position: absolute;
     top: 1.45em;
@@ -143,9 +150,9 @@ ul {
       right: -.3em;
       width: 200px;
       height: 100%;
-      padding-right: .3em;
+      padding: .5em .3em 0em 0em;
       text-align: right;
-      background-color: #0a0a0a;
+      background-color: #2e2e2e;
       z-index: 100; }
 
 main {
