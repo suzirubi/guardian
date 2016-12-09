@@ -5,6 +5,10 @@ nav {
   background-color: $color-blue;
   color: $color-white;
 }
+// @function em($target, $context: $base__font-size) {
+//   @return ($target / $context) * 1em;
+// }
+
 ul {
   list-style: none;
   margin:0;
@@ -39,50 +43,56 @@ ul {
   }
 }
 .header-topbar {
+  position: relative;
   height: 15%;
+  .topBarIcon {
+    position: relative;
+    top: .2em;
+  }
+  .circleLogo {
+    position: relative;
+    top: .85em;
+  }
+  .jobs {
+    position: absolute;
+    top:1.45em;
+    right:220px;
+  }
+  .unitedStatesEdition {
+    position: absolute;
+    top: 1.45em;
+    right:.28em;
+  }
 }
 .header-logo {
+  position: relative;
   height: 63%;
+  .brand {
+    position: absolute;
+    top: 2em;
+    right: .28em;
+  }
 }
 .header-bottombar {
-  position: relative;
   height: 22%;
   .mainNav {
+    position: relative;
     background-color: shade($color-blue,20%);
-    padding: .28em .28em .28em .28em;
+    padding: .3em .3em .3em .3em;
+    .homeIcon {
+      position: relative;
+      top: .2em;
+    }
     .browse {
       position: absolute;
-      top:0;
-      right:-.28em;
+      top: 0em;
+      right: -.3em;
       width: 200px;
       height: 100%;
-      padding-right: .28em;
+      padding-right: .3em;
       text-align: right;
       background-color: shade($color-grey,80%);
       z-index: 100;
     }
   }
-}
-
-#signIn {
-  position: relative;
-  display: inline;
-  top: .2em;
-}
-
-#google {
-  position: relative;
-  display: inline;
-  top: .85em;
-}
-#search {
-  position: relative;
-  display: inline;
-  top: .2em;
-}
-
-#logo {
-  position: relative;
-  display: block;
-  top: 2em;
 }

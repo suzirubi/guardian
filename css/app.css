@@ -103,47 +103,50 @@ ul {
       width: 100vw; } }
 
 .header-topbar {
+  position: relative;
   height: 15%; }
+  .header-topbar .topBarIcon {
+    position: relative;
+    top: .2em; }
+  .header-topbar .circleLogo {
+    position: relative;
+    top: .85em; }
+  .header-topbar .jobs {
+    position: absolute;
+    top: 1.45em;
+    right: 220px; }
+  .header-topbar .unitedStatesEdition {
+    position: absolute;
+    top: 1.45em;
+    right: .28em; }
 
 .header-logo {
+  position: relative;
   height: 63%; }
+  .header-logo .brand {
+    position: absolute;
+    top: 2em;
+    right: .28em; }
 
 .header-bottombar {
-  position: relative;
   height: 22%; }
   .header-bottombar .mainNav {
+    position: relative;
     background-color: #00456e;
-    padding: .28em .28em .28em .28em; }
+    padding: .3em .3em .3em .3em; }
+    .header-bottombar .mainNav .homeIcon {
+      position: relative;
+      top: .2em; }
     .header-bottombar .mainNav .browse {
       position: absolute;
-      top: 0;
-      right: -.28em;
+      top: 0em;
+      right: -.3em;
       width: 200px;
       height: 100%;
-      padding-right: .28em;
+      padding-right: .3em;
       text-align: right;
       background-color: #0a0a0a;
       z-index: 100; }
-
-#signIn {
-  position: relative;
-  display: inline;
-  top: .2em; }
-
-#google {
-  position: relative;
-  display: inline;
-  top: .85em; }
-
-#search {
-  position: relative;
-  display: inline;
-  top: .2em; }
-
-#logo {
-  position: relative;
-  display: block;
-  top: 2em; }
 
 main {
   width: 1300px;
